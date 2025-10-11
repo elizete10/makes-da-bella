@@ -1,11 +1,11 @@
+import { Header } from "../../components/Header"
 
 
 
 export const SkincarePage = () => {
 return (
-<>
-<Header />
-<main>
+<main className="min-h-dvh grid place-items-center bg-slate-50">
+<Header/>
 
 <h1>Creme Demaquilante - Cleansing Balm 100g </h1>
 <h2> O Cleansing Balm é um demaquilante em creme com textura bálsamo que trata a pele,</h2>
@@ -21,8 +21,7 @@ return (
 <h2>O Kit Rotina de Skincare Noturna conta com 5 produtos que vão manter a sua pele limpa, saudável </h2>
 <h2>e hidratada, todos possuem tecnologia desenvolvida na Coreia do Sul.</h2>
 
-</main>
-</> 
+</main> 
 )
 }
     

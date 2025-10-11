@@ -11,7 +11,7 @@ return (
     </li>
 
     <li>
-        <Link to="/skincare">
+        <Link to="/Skincare">
         Skincare
         </Link>
     </li>
