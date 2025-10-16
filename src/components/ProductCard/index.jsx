@@ -1,8 +1,8 @@
 export const ProductCard = ({title,description,price,img}) => {
     return (
         <div className="w-full p-4 bg-white rounded-2xl border border-slate-700">
-            <figure>
-                <img src={img} alt={title} />
+            <figure className="flex items-center justify-center">
+                <img src={img} alt={title} className="object-contain  h-[320px]" />
             </figure>
 
             <article className="space-y-2">

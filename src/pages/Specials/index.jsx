@@ -8,7 +8,7 @@ export const SpecialsPage = () => {
 
             <main className="min-h-dvh grid place-items-center bg-neutral-200 py-14  px-8 lg:px-12">
                 <h1 className="text-3xl font-bold text-slate-800 mb-8">
-                ISPICIEAIS
+                Especiais
                 </h1>
 
                 <div className="w-full flex items-center justify-center">
